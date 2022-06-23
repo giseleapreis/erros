@@ -1,4 +1,4 @@
-function validaArrays(arr, num) {
+function validacao(arr, num) {
 	try {
 		if (!arr && !num) throw new ReferenceError('É necessario o envio de parâmetros!');
 
@@ -25,4 +25,4 @@ function validaArrays(arr, num) {
 	}
 }
 
-console.log(validaArrays(5));
+console.log(validacao(5));
